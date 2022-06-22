@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PuzzlePlatforms",
+			"Path": "D:\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatforms.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PuzzlePlatformsEditor",
+			"Path": "D:\\Unreal Projects\\PuzzlePlatforms\\Source\\PuzzlePlatformsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
