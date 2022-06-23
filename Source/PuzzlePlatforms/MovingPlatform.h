@@ -21,8 +21,13 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
-private:
-
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* Mesh;
+
+	UPROPERTY(EditAnywhere)
+	float Speed = 100.f;
+
+	UPROPERTY(EditAnywhere, meta = (MakeEditWidget = "true"))
+	FVector TargetLocation;
+
 };
